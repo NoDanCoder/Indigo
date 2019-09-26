@@ -1,0 +1,117 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+
+    display: flex;
+    justify-content: center;
+}
+
+.contenedor
+{
+    width: 100%;
+    max-width: 1920;
+    height: 100vh;
+
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header
+{
+    width: 100%;
+    padding: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-bottom: 1px solid rgb(230, 230, 230);
+}
+
+header > p
+{
+    font-size: 3.6rem;
+}
+
+main
+{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+main > section
+{
+    margin: 10px 20px;
+    background-color: rgb(192, 192, 192);
+}
+
+main > section:first-child
+{
+    margin: 20px 20px 10px 20px;
+}
+
+main > section:last-child
+{
+    margin: 10px 20px 20px 20px;
+}
+
+main > section > div
+{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+
+    margin: 20px;
+}
+
+main > section > div
+{
+    margin: 20px;
+}
+
+.div1
+{
+    font-size: 1.4rem;
+}
+
+main .div2 .obj_desc
+{
+    width: 40%;
+    padding: 20px;
+}
+
+main .div2 .obj_img img
+{
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+}
+
+footer
+{
+    width: 100%;
+    padding: 20px;
+    background-color: black;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer > p
+{
+    font-size: 1rem;
+    color: aliceblue;
+}
